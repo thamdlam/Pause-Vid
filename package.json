@@ -1,0 +1,13 @@
+{
+  "name": "pause-vid-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo workspace for the Pause Vid streaming platform",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:core": "npm run dev --workspace=@pausevid/core",
+    "build:core": "npm run build --workspace=@pausevid/core"
+  }
+}
