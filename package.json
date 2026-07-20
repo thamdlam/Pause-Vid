@@ -8,6 +8,8 @@
   ],
   "scripts": {
     "dev:core": "npm run dev --workspace=@pausevid/core",
-    "build:core": "npm run build --workspace=@pausevid/core"
+    "build:core": "npm run build --workspace=@pausevid/core",
+    "dev:web": "npm run dev --workspace=@pausevid/web",
+    "build:web": "npm run build --workspace=@pausevid/web"
   }
 }
